@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 思源黑體 TW Black;
+    
+}
+
+header{
+    width: 90%;
+    height: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px auto;
+}
+
+header a{
+    color:gray;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+header a:hover{
+    text-decoration:underline;
+}
+
+/*
+.user-icon{
+    position: relative;
+    top: 9px;
+}
+*/
+
+
+
+.two{
+    width: 80%;
+    height: 300px;
+    margin:10px auto;
+    /* background-color: #f3c89f; 等等要註解 */
+    /* border: 2px solid red; 等等要註解 */
+    color:white;
+    font-size: 70px;
+    background-image: url(./vinyl.jpg) ;
+    background-size: cover;
+    text-align: center;
+    line-height: 300px;
+}
+
+.three{
+    width:80%;
+    height: 500px;
+    /* background-color: #9ff3ac; 等等要註解 */
+    /* border: 2px solid red; 等等要註解 */
+    margin:10px auto;
+    display: flex;
+
+}
+
+
+.left_3{
+    width: 30%;
+    /* background-color: rgb(224, 223, 223); */
+    margin-right: 5px;
+}
+
+
+.right_3{
+    width: 70%;
+    /* background-color: bisque; */
+    margin-left: 5px;
+}
+
+
+.box_left{
+    width:90%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #515151;
+    color: white;
+    padding: 10px;
+    margin: 20px 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box_left:hover{
+    background-color: #f3c89f;
+}
+
+.album_info{
+    display: flex;
+}
+
+.album_info_left{
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 5px;
+    
+}
+
+.album_info_right{
+    list-style-position: inside;
+}
+
+.排版_左{
+    width: 30%;
+}
+
+.video{
+    width:70%;
+    /*background-color: black;*/
+}
+
+.title_1{
+    border-bottom: 2px solid black;
+}
+
+
+.title_2{
+    width: 75px;
+    height: 25px;
+    background-color: #f3c89f;
+    border-radius: 10px;
+    margin:10px 0;
+    padding: 3px 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+
+.排版{
+    display: flex;
+}
+
+
+.footer-logo{
+    width: 70%;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #f3c89f;
+    height: 40px;
+    text-align: right;
+    line-height: 40px;
+    font-weight: 100;
+}
